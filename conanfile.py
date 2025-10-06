@@ -16,7 +16,7 @@ class CinfinityConan(ConanFile):
     def requirements(self):
         self.settings.compiler.cppstd = "20"
 
-        self.requires("abseil/20240116.1") 
+        self.requires("abseil/20250814.0") 
         self.requires("onnxruntime/1.18.1")
         self.requires("pybind11/3.0.1")
 
